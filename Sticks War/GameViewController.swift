@@ -9,47 +9,31 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import CCDJoystick
 
 class GameViewController: UIViewController {
-
+   
+    let joystick: CCDJoystick = CCDJoystick()
     override func viewDidLoad() {
-        super.viewDidLoad()
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
+        super.viewDidLoad()
+        self.joystick.frame = CGRect(x: view.bounds.size.width - 100  , y: view.bounds.size.height - 100  , width: 100 , height: 100)
+        self.joystick.backgroundColor = .black
+        let scene = GameScene(size: CGSize(width: view.bounds.size.width , height: view.bounds.size.height))
+        //let scene = GameScene(fileNamed: "FightScene"
+        let skView = self.view as! SKView
+        skView.addSubview(joystick)
+        self.joystick.isHidden = true
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        skView.ignoresSiblingOrder = false
+        scene.scaleMode = .aspectFit
+        skView.presentScene(scene)
+        
     }
-
-    override var shouldAutorotate: Bool {
-        return true
-    }
-
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    
 }

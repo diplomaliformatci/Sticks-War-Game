@@ -8,26 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		221CBCCA1E5F70E800F3533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CBCC91E5F70E800F3533C /* AppDelegate.swift */; };
-		221CBCCC1E5F70E800F3533C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 221CBCCB1E5F70E800F3533C /* GameScene.sks */; };
-		221CBCCE1E5F70E800F3533C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 221CBCCD1E5F70E800F3533C /* Actions.sks */; };
 		221CBCD01E5F70E800F3533C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CBCCF1E5F70E800F3533C /* GameScene.swift */; };
 		221CBCD21E5F70E800F3533C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CBCD11E5F70E800F3533C /* GameViewController.swift */; };
 		221CBCD51E5F70E800F3533C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221CBCD31E5F70E800F3533C /* Main.storyboard */; };
 		221CBCD71E5F70E800F3533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221CBCD61E5F70E800F3533C /* Assets.xcassets */; };
 		221CBCDA1E5F70E800F3533C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221CBCD81E5F70E800F3533C /* LaunchScreen.storyboard */; };
+		22C9F1B91E60D097000C90A2 /* Stickman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F1B81E60D097000C90A2 /* Stickman.swift */; };
+		22C9F1CA1E61A26D000C90A2 /* Frames.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C9F1C91E61A26D000C90A2 /* Frames.xcassets */; };
+		22C9F1CC1E61CD1A000C90A2 /* AnalogStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F1CB1E61CD1A000C90A2 /* AnalogStick.swift */; };
+		CB8761AA6B2E5AAF0AC3B732 /* Pods_Sticks_War.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784B374411DAE57A9F680357 /* Pods_Sticks_War.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		221CBCC61E5F70E800F3533C /* Sticks War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sticks War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		221CBCC91E5F70E800F3533C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		221CBCCB1E5F70E800F3533C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		221CBCCD1E5F70E800F3533C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		221CBCCF1E5F70E800F3533C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		221CBCD11E5F70E800F3533C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		221CBCD41E5F70E800F3533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		221CBCD61E5F70E800F3533C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221CBCD91E5F70E800F3533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221CBCDB1E5F70E800F3533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C9F1B81E60D097000C90A2 /* Stickman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stickman.swift; sourceTree = "<group>"; };
+		22C9F1C91E61A26D000C90A2 /* Frames.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Frames.xcassets; sourceTree = "<group>"; };
+		22C9F1CB1E61CD1A000C90A2 /* AnalogStick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogStick.swift; sourceTree = "<group>"; };
+		784B374411DAE57A9F680357 /* Pods_Sticks_War.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sticks_War.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D7206CF9802167E214854B /* Pods-Sticks War.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sticks War.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sticks War/Pods-Sticks War.release.xcconfig"; sourceTree = "<group>"; };
+		D3EA4D4D2204E456FC0CE544 /* Pods-Sticks War.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sticks War.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sticks War/Pods-Sticks War.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8761AA6B2E5AAF0AC3B732 /* Pods_Sticks_War.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,8 @@
 			children = (
 				221CBCC81E5F70E800F3533C /* Sticks War */,
 				221CBCC71E5F70E800F3533C /* Products */,
+				38B4B145437E7884BCFF4C95 /* Pods */,
+				EC557E22F9015F8F5A2D72D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +69,51 @@
 		221CBCC81E5F70E800F3533C /* Sticks War */ = {
 			isa = PBXGroup;
 			children = (
-				221CBCC91E5F70E800F3533C /* AppDelegate.swift */,
-				221CBCCB1E5F70E800F3533C /* GameScene.sks */,
-				221CBCCD1E5F70E800F3533C /* Actions.sks */,
+				22C9F1BD1E60D5E2000C90A2 /* Scenes */,
+				22C9F1BA1E60D0A0000C90A2 /* Recources */,
 				221CBCCF1E5F70E800F3533C /* GameScene.swift */,
+				22C9F1B81E60D097000C90A2 /* Stickman.swift */,
+			);
+			path = "Sticks War";
+			sourceTree = "<group>";
+		};
+		22C9F1BA1E60D0A0000C90A2 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				221CBCC91E5F70E800F3533C /* AppDelegate.swift */,
 				221CBCD11E5F70E800F3533C /* GameViewController.swift */,
 				221CBCD31E5F70E800F3533C /* Main.storyboard */,
 				221CBCD61E5F70E800F3533C /* Assets.xcassets */,
 				221CBCD81E5F70E800F3533C /* LaunchScreen.storyboard */,
 				221CBCDB1E5F70E800F3533C /* Info.plist */,
+				22C9F1C91E61A26D000C90A2 /* Frames.xcassets */,
+				22C9F1CB1E61CD1A000C90A2 /* AnalogStick.swift */,
 			);
-			path = "Sticks War";
+			name = Recources;
+			sourceTree = "<group>";
+		};
+		22C9F1BD1E60D5E2000C90A2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		38B4B145437E7884BCFF4C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA4D4D2204E456FC0CE544 /* Pods-Sticks War.debug.xcconfig */,
+				80D7206CF9802167E214854B /* Pods-Sticks War.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC557E22F9015F8F5A2D72D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				784B374411DAE57A9F680357 /* Pods_Sticks_War.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 221CBCDE1E5F70E800F3533C /* Build configuration list for PBXNativeTarget "Sticks War" */;
 			buildPhases = (
+				AB7185AEB35A81D496BFD72B /* [CP] Check Pods Manifest.lock */,
 				221CBCC21E5F70E800F3533C /* Sources */,
 				221CBCC31E5F70E800F3533C /* Frameworks */,
 				221CBCC41E5F70E800F3533C /* Resources */,
+				5282960FC6658985D44F0403 /* [CP] Embed Pods Frameworks */,
+				E27BD9DADF37D6B507BC8C0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +180,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				221CBCD51E5F70E800F3533C /* Main.storyboard in Resources */,
-				221CBCCC1E5F70E800F3533C /* GameScene.sks in Resources */,
 				221CBCD71E5F70E800F3533C /* Assets.xcassets in Resources */,
+				22C9F1CA1E61A26D000C90A2 /* Frames.xcassets in Resources */,
 				221CBCDA1E5F70E800F3533C /* LaunchScreen.storyboard in Resources */,
-				221CBCCE1E5F70E800F3533C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5282960FC6658985D44F0403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sticks War/Pods-Sticks War-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7185AEB35A81D496BFD72B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E27BD9DADF37D6B507BC8C0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sticks War/Pods-Sticks War-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		221CBCC21E5F70E800F3533C /* Sources */ = {
@@ -149,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				221CBCD01E5F70E800F3533C /* GameScene.swift in Sources */,
+				22C9F1CC1E61CD1A000C90A2 /* AnalogStick.swift in Sources */,
 				221CBCD21E5F70E800F3533C /* GameViewController.swift in Sources */,
 				221CBCCA1E5F70E800F3533C /* AppDelegate.swift in Sources */,
+				22C9F1B91E60D097000C90A2 /* Stickman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +366,7 @@
 		};
 		221CBCDF1E5F70E800F3533C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EA4D4D2204E456FC0CE544 /* Pods-Sticks War.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2CS3NY4ZU9;
@@ -284,6 +380,7 @@
 		};
 		221CBCE01E5F70E800F3533C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D7206CF9802167E214854B /* Pods-Sticks War.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2CS3NY4ZU9;
@@ -314,6 +411,7 @@
 				221CBCE01E5F70E800F3533C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

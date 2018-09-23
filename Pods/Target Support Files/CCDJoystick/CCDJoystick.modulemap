@@ -1,0 +1,6 @@
+framework module CCDJoystick {
+  umbrella header "CCDJoystick-umbrella.h"
+
+  export *
+  module * { export * }
+}
